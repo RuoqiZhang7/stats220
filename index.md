@@ -4,10 +4,10 @@ I am from the University of Auckland majoring in **data science**. I like to tak
 # About my image
 The images I make are about Snoopy and it's always expressive😆. _That's my favorite cartoon._ Because Snoopy and his owner Charlie Brown always have a lot of fun happening. So I combined my life and studies to make images of him.
 ### My image(snoopy)
-Below is my image. I made using the R package [{magick}](https://cran.r-project.org/web/packages/magick/vignettes/intro.html)
+Below is my image.**I made using the R package** [{magick}](https://cran.r-project.org/web/packages/magick/vignettes/intro.html)
 ![snoopy](https://github.com/RuoqiZhang7/stats220/blob/main/snoopy.png)
 
-_My inspiration came from my birthday last year, and I think Snoopy's picture can perfectly express the change of my mood_😊.
+My inspiration came from my birthday last year, and I think Snoopy's picture can perfectly express the change of my mood😊.
 
 # **R code**
 library(magick)
