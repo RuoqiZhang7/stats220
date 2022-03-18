@@ -6,9 +6,10 @@ The images I make are about Snoopy and it's always expressive😆. _That's my fa
 ## My image(snoopy)
 Below is my image. I made using the R package [{magick}](https://cran.r-project.org/web/packages/magick/vignettes/intro.html)
 ![snoopy](https://github.com/RuoqiZhang7/stats220/blob/main/snoopy.png)
-My inspiration came from my birthday last year, and I think Snoopy's picture can perfectly express the change of my mood😊.
 
-# R code
+_My inspiration came from my birthday last year, and I think Snoopy's picture can perfectly express the change of my mood_😊.
+
+# **R code**
 library(magick)
 snoopy_one <- image_read("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1Zf-04yf2HHItKYYBRgfdAfy3Uv-apNBmw&usqp=CAU") %>%
   image_scale(300)
