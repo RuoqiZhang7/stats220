@@ -10,6 +10,9 @@ Below is my image.**I made using the R package** [{magick}](https://cran.r-proje
 My inspiration came from my birthday last year, and I think Snoopy's picture can perfectly express the change of my mood😊.
 
 # **R code**
+
+```r
+
 library(magick)
 snoopy_one <- image_read("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1Zf-04yf2HHItKYYBRgfdAfy3Uv-apNBmw&usqp=CAU") %>%
   image_scale(300)
@@ -68,4 +71,5 @@ c(first_row, second_row, third_row) %>%
 all_snoopy <- image_read("http://localhost:11171/session/preview.jpeg?viewer_pane=1&capabilities=1&host=http%3A%2F%2F127.0.0.1%3A33616")
 image_write(all_snoopy,path = "snoopy.png",format = "png")
 
+```
 
